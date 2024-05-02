@@ -1,0 +1,254 @@
+@font-face {
+    font-family: Mocha;
+    src: url(Fonts/MOXABestine.ttf);
+}
+@font-face {
+    font-family: Choco;
+    src: url(Fonts/PeterQuincy.otf);
+}
+#html1 {
+    background-color: black;
+}
+#header {
+    color: #54a78c#254a3e;
+    text-shadow: 
+    0px 0px 4px aquamarine,
+    0px 0px 8px aquamarine,
+    0px 0px 10px aquamarine;
+    font-size: 50px;
+    font-family: choco;
+    text-align: center;
+    margin: 0;
+}
+#nav {
+    border: 2px solid aquamarine;
+    text-align: center;
+    margin: 0;
+    padding: 16px 20px;
+}
+#nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px 10px;
+    color: aquamarine;
+}
+#nav ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+#nav ul li a {
+    display: block ;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+#nav ul li + li {
+    margin-left: 15px;
+}
+.home {
+    color: aquamarine;
+    padding: 8px 3px;
+}
+.profile {
+    color: aquamarine;
+    padding: 8px 3px;
+}
+.setup {
+    color: aquamarine;
+    padding: 8px 3px;
+}
+.contact {
+    color: aquamarine;
+    padding: 8px 3px;
+}
+.profileimg {
+    width:150px;
+    margin: 10px;
+    border: 1px solid aquamarine;
+    border-radius: 50px 20px;
+}
+.mam {
+    clear:left;
+    color: aquamarine;
+    display:block;
+}
+.mam1 {
+    color: aquamarine;
+}
+.mam2 {
+    color: aquamarine;
+}
+.name {
+    color: aquamarine;
+}
+.birthdate {
+    color: aquamarine;
+}
+.age {
+    color: aquamarine;
+}
+.gender {
+    color: aquamarine;
+}
+#body {
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXJreXM4d28zbWlvNHBseDJ1enpod3dmNmZ2ZGM2b3NkNHN2dG8wZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9k1173PdfJWRsoE/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.welcome {
+    color: aquamarine;
+    text-align: center;
+    margin: 300px 0px 0px 0px;
+    font-family: Mocha;
+    text-shadow:2px 4px 6px aquamarine;   
+}
+.dreams {
+    color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 500px;
+    font-family: Choco;
+    text-shadow:
+    0px 0px 4px aquamarine,
+    0px 0px 8px aquamarine,
+    0px 0px 12px aquamarine;
+}
+.dropbtn {
+    color: aquamarine;
+    text-align: left;
+    text-decoration: none;
+    margin: 20px 25px 0px;
+    background-color: transparent;
+    border: .5px solid aquamarine;
+    padding: 16px;
+    font-size: 16px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;    
+    margin: 3px 5px 0px;
+    text-align:left;
+    position: absolute;
+    border: .5px solid aquamarine;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: aquamarine;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: transparent;}
+.dropdown:hover .dropdown-content {display:block;}
+.dropdown:hover .dropbtn {background-color: transparent;}
+.laptop {
+    background-color: transparent;
+    border: transparent;
+    font-size: 16px;
+    color: aquamarine;
+}
+.computer {
+    background-color: transparent;
+    border: transparent;
+    font-size:16px;
+    color: aquamarine;
+}
+.redmiphone{
+    border-radius:7%;
+    border: .3px solid aquamarine;
+    float: left;
+}
+.phonedeets {
+    border-radius:7%;
+    border: .3px solid aquamarine;
+    float:right;
+    width: 150px;
+    margin: 10px 0px 0px 0px;
+}
+.note {
+    color: aquamarine;
+    clear: left;
+    clear: right;
+}
+.phonemoreinfo {
+    text-decoration: none;
+    text-align: center;
+    color: aquamarine;
+    margin: 40px 0px 0px 0px;
+}
+.facebookimg {
+    width: 35px;
+    border-radius: 50%;
+    float:left;
+    margin: 23px 10px 0px 120px;
+}
+.facebooktext {
+    text-decoration: none;
+    border: 1px solid aquamarine;
+    text-align: left;
+    color: aquamarine;
+    display: block;
+    padding: 10px;
+    margin: 20px 10px 0px 0px;
+}
+.floatremover1 {
+    clear:left;
+}
+.instagramimg {
+    width: 35px;
+    border-radius: 50%;
+    float:left;
+    margin: 23px 10px 0px 120px;
+}
+.instagramtext {
+    text-decoration: none;
+    border: 1px solid aquamarine;
+    text-align: left;
+    color: aquamarine;
+    display:block;
+    padding: 10px;
+    margin: 20px 10px 0px 0px;
+}
+.floatremover2 {
+    clear:left;
+}
+.twitterimg {
+    width: 35px;
+    border-radius: 50%;
+    float:left;
+    margin: 23px 10px 0px 120px;
+}
+.twittertext {
+    text-decoration: none;
+    border: 1px solid aquamarine;
+    text-align: left;
+    color: aquamarine;
+    display: block;
+    padding: 10px;
+    margin: 20px 10px 0px 0px;
+}
+.floatremover3 {
+    clear: left;
+}
+.gmailimg {
+    width: 35px;
+    border-radius: 50%;
+    float: left;
+    margin: 23px 10px 0px 120px;
+}
+.gmailtext {
+    text-decoration: none;
+    border: 1px solid aquamarine;
+    text-align: left;
+    color: aquamarine;
+    display: block;
+    padding: 10px;
+    margin: 20px 10px 0px 0px;
+}
